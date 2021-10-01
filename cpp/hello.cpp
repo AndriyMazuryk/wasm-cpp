@@ -1,7 +1,7 @@
 #include <iostream>
-#include "fib.cpp"
+#include "fib.h"
 
 int main() {
-  std::cout << "fib(5) = " << fib(5) << std::endl;
+  std::cout << "fib(6) = " << fib(6) << std::endl;
   return 0;
 }
